@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap");
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbox {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.ais-Stats-text {
+  font-size: 1rem;
+}
+
+.statsContainerStyle {
+  text-align: center;
+  flex: 1;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.searchPanelResultsStyle {
+  background: #ffffff;
+  padding: 20px;
+  flex: 1;
+  flex-direction: row;
+}
+
+.paginationStyle {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.headerStyle {
+  font-family: Beth Ellen, cursive;
+  font-size: 50px;
+}
+
+.searchBoxContainerStyle {
+  flex: 4;
+  flex-direction: row;
+}
+
+.filtersContainerStyle {
+  flex: 1;
+  flex-direction: row;
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.titleContainerStyle {
+  flex: 4;
+  flex-direction: row;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.backgroundStyle {
+  background: #77a1d3;
+  background: -webkit-linear-gradient(to right, #e684ae, #79cbca, #77a1d3);
+  background: linear-gradient(to right, #e684ae, #79cbca, #77a1d3);
+}
