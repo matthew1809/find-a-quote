@@ -1,5 +1,5 @@
 ## Find a quote
-This is is a short and sweet ReactJS example of how quick and easy it is to build search using Algolia, specifically their InstantSearch libraries. It uses a standard quotes dataset with a custom attribute added called popularity, each record has a random popularity between 1 and 10.
+This is is a short and sweet ReactJS example of how quick and easy it is to build search using Algolia, specifically their InstantSearch libraries. It uses a [standard quotes dataset](https://github.com/JamesFT/Database-Quotes-JSON) but with a custom attribute added called popularity (each record has a random popularity between 1 and 10).
 
 ## Functionality
 This app uses a number of the InstantSearch widgets:
@@ -20,7 +20,7 @@ This app uses a number of the InstantSearch widgets:
 ## Deploy
 1. If you do not already have the [Zeit Now CLI](https://github.com/zeit/now-cli) installed: `yarn global add now`
 
-`now`
+2. `now`
 
 ## Future
 The next steps for this app would be to use the [Range Slider Widget](https://www.algolia.com/doc/api-reference/widgets/range-slider/react/#full-example) with [Rheostat](https://github.com/airbnb/rheostat) to create a slider for popularity.
