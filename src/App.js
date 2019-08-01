@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Search from "./components/Search";
+import Search from "./components/Search/Search";
 import QandA from './components/QandA/QandA';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
