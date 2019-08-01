@@ -48,7 +48,7 @@ export default class Search extends Component {
             </div>
 
             <div className="search-panel__filters filtersContainerStyle">
-              <h3>Popularity</h3>
+              <h3>Popularity ranking (0-10)</h3>
               <RefinementList attribute="popularity" />
             </div>
 
