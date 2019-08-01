@@ -25,7 +25,13 @@ export default class Search extends Component {
         <div className="search-panel">
           <div className="flex-container">
             <div className="search-panel__filters filtersContainerStyle">
+              <h3>Author</h3>
               <RefinementList attribute="quoteAuthor" />
+            </div>
+
+            <div className="search-panel__filters filtersContainerStyle">
+              <h3>Popularity</h3>
+              <RefinementList attribute="popularity" />
             </div>
 
             <div className="titleContainerStyle">
