@@ -5,7 +5,7 @@ import {
   RefinementList,
   Pagination,
   Highlight,
-  Stats,
+  Stats
 } from "react-instantsearch-dom";
 import algoliasearch from "algoliasearch/lite";
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
