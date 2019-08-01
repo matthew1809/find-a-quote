@@ -1,5 +1,9 @@
 ## Find a quote
-This is is a short and sweet ReactJS example of how quick and easy it is to build search using Algolia, specifically their InstantSearch libraries. It uses a [standard quotes dataset](https://github.com/JamesFT/Database-Quotes-JSON) but with a custom attribute added called popularity (each record has a random popularity between 1 and 10).
+This is a short and sweet ReactJS example of how quick and easy it is to build search using Algolia, specifically their InstantSearch libraries.
+
+It uses a [standard quotes dataset](https://github.com/JamesFT/Database-Quotes-JSON) but with a custom attribute added called popularity (each record has a random popularity between 1 and 10).
+
+The intention of the project is to see how fast one could implement search in an application. While I originally started with a Gatsby site using [this guide](https://www.gatsbyjs.org/docs/adding-search-with-algolia/), I found it even faster to use one of the [react app generator for InstantSearch](https://github.com/algolia/create-instantsearch-app).
 
 ## Functionality
 This app uses a number of the InstantSearch widgets:
