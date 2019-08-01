@@ -20,6 +20,26 @@ const searchClient = algoliasearch(
 
 export default class Search extends Component {
   render() {
+
+    function Hit(props) {
+      return (
+        <article>
+          <h1>
+            <Highlight attribute="quoteAuthor" hit={props.hit} />
+          </h1>
+
+          <p>
+            <Highlight attribute="quoteText" hit={props.hit} />
+          </p>
+        </article>
+      );
+    };
+
+    Hit.propTypes = {
+      hit: PropTypes.object.isRequired,
+    };
+
+    
     return (
       <InstantSearch searchClient={searchClient} indexName="dev_quotes">
         <div className="search-panel">
@@ -66,22 +86,5 @@ export default class Search extends Component {
       </InstantSearch>
     );
 
-    function Hit(props) {
-      return (
-        <article>
-          <h1>
-            <Highlight attribute="quoteAuthor" hit={props.hit} />
-          </h1>
-
-          <p>
-            <Highlight attribute="quoteText" hit={props.hit} />
-          </p>
-        </article>
-      );
-    }
-
-    Hit.propTypes = {
-      hit: PropTypes.object.isRequired,
-    };
   }
 }
