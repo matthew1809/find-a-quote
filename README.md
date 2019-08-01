@@ -5,6 +5,8 @@ It uses a [standard quotes dataset](https://github.com/JamesFT/Database-Quotes-J
 
 The intention of the project is to see how fast one could implement search in an application. While I originally started with a Gatsby site using [this guide](https://www.gatsbyjs.org/docs/adding-search-with-algolia/), I found it even faster to use one of the [react app generator for InstantSearch](https://github.com/algolia/create-instantsearch-app).
 
+Had this been a more production oriented project, I would have added more configuration and convention, enforcing [Husky and Prettier](https://medium.com/@bartwijnants/using-prettier-and-husky-to-make-your-commits-save-2960f55cd351) as well as (standard Commitzen checks on commit messages](https://medium.com/@lorenzen.jacob/standardize-git-commit-messages-b3f938f078be).
+
 ## Functionality
 This app uses a number of the InstantSearch widgets:
 
