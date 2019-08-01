@@ -7,12 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="backgroundStyle">
-        <div className="container">
           <Router>
               <Route exact path="/" component={Search} />
               <Route path="/questions" component={QandA} />
           </Router>
-        </div>
       </div>
     );
   }
