@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardHeader, CardContent } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 const Sentiment = require("sentiment");
 
@@ -14,8 +14,8 @@ const analyseQuestion = question => {
 const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: 1000,
-    margin: '20px auto 20px auto',
-    padding: '20px'
+    margin: "20px auto 20px auto",
+    padding: "20px",
   },
 }));
 

@@ -5,7 +5,7 @@ import {
   RefinementList,
   Pagination,
   Highlight,
-  Stats
+  Stats,
 } from "react-instantsearch-dom";
 import algoliasearch from "algoliasearch/lite";
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
@@ -20,7 +20,6 @@ const searchClient = algoliasearch(
 
 export default class Search extends Component {
   render() {
-
     function Hit(props) {
       return (
         <article>
@@ -33,13 +32,12 @@ export default class Search extends Component {
           </p>
         </article>
       );
-    };
+    }
 
     Hit.propTypes = {
       hit: PropTypes.object.isRequired,
     };
 
-    
     return (
       <InstantSearch searchClient={searchClient} indexName="dev_quotes">
         <div className="search-panel">
@@ -85,6 +83,5 @@ export default class Search extends Component {
         </div>
       </InstantSearch>
     );
-
   }
 }
